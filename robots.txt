@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://teliduxingdimiao.github.io/sitemap.xml
