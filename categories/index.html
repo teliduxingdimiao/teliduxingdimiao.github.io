@@ -4,7 +4,7 @@
   dir="ltr"
   class="scroll-smooth"
   data-default-appearance="light"
-  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  data-auto-appearance="true"><head>
   <meta charset="utf-8">
   
     <meta http-equiv="content-language" content="zh-CN">
@@ -22,7 +22,7 @@
   
   
   
-  <link rel="canonical" href="http://localhost:1313/categories/">
+  <link rel="canonical" href="https://teliduxingdimiao.github.io/categories/">
   
       <link rel="alternate" type="application/rss+xml" href="/categories/index.xml" title="Cloud_Shy" />
   
@@ -100,7 +100,7 @@
   
 
   
-  <meta property="og:url" content="http://localhost:1313/categories/">
+  <meta property="og:url" content="https://teliduxingdimiao.github.io/categories/">
   <meta property="og:site_name" content="Cloud_Shy">
   <meta property="og:title" content="Categories">
   <meta property="og:locale" content="zh_CN">
@@ -177,7 +177,13 @@
     </div>
     
     
-      
+      <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px] z-100">
+  <div
+    id="menu-blur"
+    class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom bg-neutral dark:bg-neutral-800"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    
 
 
 
@@ -231,7 +237,7 @@
   class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
   
   <p class="text-base font-medium" title="">
-    Blog
+    文档
   </p>
 </a>
 
@@ -245,7 +251,7 @@
   class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
   
   <p class="text-base font-medium" title="Categories">
-    Categories
+    分类
   </p>
 </a>
 
@@ -261,7 +267,7 @@
       class="text-base font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400"
       title="">
       <p>
-        Parent
+        归档
       </p>
     </a>
     <span>
@@ -290,7 +296,7 @@
             class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
             
             <p class="text-sm font-sm" title="">
-              example sub-menu 1
+              我的学习笔记
             </p>
           </a>
         
@@ -300,7 +306,7 @@
             class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
             
             <p class="text-sm font-sm" title="">
-              example sub-menu 2
+              新手入门教程集合
             </p>
           </a>
         
@@ -319,7 +325,7 @@
   class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
   
   <p class="text-base font-medium" title="Tags">
-    Tags
+    标签
   </p>
 </a>
 
@@ -431,7 +437,7 @@
     class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-bg font-bg" title="">
-      Blog
+      文档
     </p>
   </a>
 </li>
@@ -447,7 +453,7 @@
     class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-bg font-bg" title="Categories">
-      Categories
+      分类
     </p>
   </a>
 </li>
@@ -462,7 +468,7 @@
     class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-bg font-bg" title="">
-      Parent
+      归档
     </p>
     <span>
       <span class="relative block icon"><svg
@@ -489,7 +495,7 @@
       class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
       
       <p class="text-sm font-small" title="">
-        example sub-menu 1
+        我的学习笔记
       </p>
     </a>
   </li>
@@ -501,7 +507,7 @@
       class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
       
       <p class="text-sm font-small" title="">
-        example sub-menu 2
+        新手入门教程集合
       </p>
     </a>
   </li>
@@ -519,7 +525,7 @@
     class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-bg font-bg" title="Tags">
-      Tags
+      标签
     </p>
   </a>
 </li>
@@ -609,6 +615,26 @@
 
 
 
+  <script>
+    (function () {
+      var $mainmenu = $(".main-menu");
+      var path = window.location.pathname;
+      $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+        $(e).children("p").addClass("active");
+      });
+    })();
+  </script>
+
+
+  </div>
+</div>
+
+
+<script
+  type="text/javascript"
+  src="/js/background-blur.min.0ad33cb9c066f652728b2cc09c9ceaf32645544f48e8b6b38f120d86f433ed997da275a49e6151fe0176430c45376812708d84727f3f969101fb44a4345b3f34.js"
+  integrity="sha512-CtM8ucBm9lJyiyzAnJzq8yZFVE9I6LazjxINhvQz7Zl9onWknmFR/gF2QwxFN2gScI2Ecn8/lpEB&#43;0SkNFs/NA=="
+  data-target-id="menu-blur"></script>
 
     
     <div class="relative flex flex-col grow">
@@ -681,7 +707,7 @@
                 href="/tags/"
                 title="Tags">
                 
-                Tags
+                标签
               </a>
             </li>
           
@@ -691,7 +717,7 @@
                 href="/categories/"
                 title="Categories">
                 
-                Categories
+                分类
               </a>
             </li>
           
@@ -741,7 +767,7 @@
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
-  data-url="http://localhost:1313/">
+  data-url="https://teliduxingdimiao.github.io/">
   <div
     id="search-modal"
     class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800">

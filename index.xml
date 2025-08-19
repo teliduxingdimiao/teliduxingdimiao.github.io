@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cloud_Shy</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Cloud_Shy</description>
+    <title>欢迎来到 Cloud_Shy! :tada: on Cloud_Shy</title>
+    <link>https://teliduxingdimiao.github.io/</link>
+    <description>Recent content in 欢迎来到 Cloud_Shy! :tada: on Cloud_Shy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <managingEditor>youremail@example.com (teliduxingdimiao)</managingEditor>
     <webMaster>youremail@example.com (teliduxingdimiao)</webMaster>
     <copyright>© 2025 teliduxingdimiao</copyright>
-    <lastBuildDate>Tue, 19 Aug 2025 16:38:25 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Aug 2025 16:38:25 +0800</lastBuildDate><atom:link href="https://teliduxingdimiao.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Newnewnew</title>
-      <link>http://localhost:1313/post/newnewnew/</link>
+      <link>https://teliduxingdimiao.github.io/posts/newnewnew/</link>
       <pubDate>Tue, 19 Aug 2025 16:38:25 +0800</pubDate>
       <author>youremail@example.com (teliduxingdimiao)</author>
-      <guid>http://localhost:1313/post/newnewnew/</guid>
+      <guid>https://teliduxingdimiao.github.io/posts/newnewnew/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Article01</title>
-      <link>http://localhost:1313/post/article01/</link>
+      <link>https://teliduxingdimiao.github.io/posts/article01/</link>
       <pubDate>Sun, 17 Aug 2025 10:28:11 +0800</pubDate>
       <author>youremail@example.com (teliduxingdimiao)</author>
-      <guid>http://localhost:1313/post/article01/</guid>
+      <guid>https://teliduxingdimiao.github.io/posts/article01/</guid>
       <description></description>
       
     </item>
