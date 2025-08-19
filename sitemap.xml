@@ -26,4 +26,10 @@
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://teliduxingdimiao.github.io/posts/vmware-workstation-%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%8C%87%E5%8D%97/</loc>
+    <lastmod>2025-04-15T10:28:11+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
