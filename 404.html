@@ -84,10 +84,22 @@
 
   
   
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+<link rel="manifest" href="/site.webmanifest">
+
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<link rel="shortcut icon" href="/favicon.ico">
+
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="msapplication-TileImage" content="/mstile-150x150.png">
+<meta name="theme-color" content="#ffffff">
+
   
 
   
@@ -159,6 +171,29 @@
 
   
   
+    
+      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script>
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyCdOq7GCWM9mQ6wcPBrZownl3-Vvuu9sDY",
+      authDomain: "AIzaSyCdOq7GCWM9mQ6wcPBrZownl3-Vvuu9sDY",
+      projectId: "cloudshy-c7aef",
+      storageBucket: "cloudshy-c7aef.firebasestorage.app",
+      messagingSenderId: "95154075478",
+      appId: "1:95154075478:web:9440ee157af53a714388f7",
+      measurementId: "G-9DTZD8RRGP"
+    };
+
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
+    
+  
 
   
   
@@ -206,9 +241,9 @@
           <span class="sr-only">Cloud_Shy</span>
           
             <img
-              src="/img/Cloud_Shy.png"
-              width="2048"
-              height="2048"
+              src="/img/logo.png"
+              width="32"
+              height="32"
               class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom"
               alt="Cloud_Shy">
           
@@ -230,11 +265,11 @@
       
         
   <a
-  href=""
+  href="/posts/"
   
   class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
   
-  <p class="text-base font-medium" title="">
+  <p class="text-base font-medium" title="Posts">
     文档
   </p>
 </a>
@@ -289,21 +324,21 @@
       <div class="flex flex-col space-y-3">
         
           <a
-            href=""
+            href="/posts/"
             
             class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
             
-            <p class="text-sm font-sm" title="">
+            <p class="text-sm font-sm" title="Posts">
               我的学习笔记
             </p>
           </a>
         
           <a
-            href=""
+            href="/posts/"
             
             class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
             
-            <p class="text-sm font-sm" title="">
+            <p class="text-sm font-sm" title="Posts">
               新手入门教程集合
             </p>
           </a>
@@ -430,11 +465,11 @@
               
   <li class="mt-1">
   <a
-    href=""
+    href="/posts/"
     
     class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-bg font-bg" title="">
+    <p class="text-bg font-bg" title="Posts">
       文档
     </p>
   </a>
@@ -488,11 +523,11 @@
 
   <li class="mt-1">
     <a
-      href=""
+      href="/posts/"
       
       class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
       
-      <p class="text-sm font-small" title="">
+      <p class="text-sm font-small" title="Posts">
         我的学习笔记
       </p>
     </a>
@@ -500,11 +535,11 @@
 
   <li class="mt-1">
     <a
-      href=""
+      href="/posts/"
       
       class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
       
-      <p class="text-sm font-small" title="">
+      <p class="text-sm font-small" title="Posts">
         新手入门教程集合
       </p>
     </a>
@@ -612,16 +647,6 @@
   </div>
 
 
-
-  <script>
-    (function () {
-      var $mainmenu = $(".main-menu");
-      var path = window.location.pathname;
-      $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
-        $(e).children("p").addClass("active");
-      });
-    })();
-  </script>
 
 
   </div>

@@ -86,10 +86,22 @@
 
   
   
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+<link rel="manifest" href="/site.webmanifest">
+
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<link rel="shortcut icon" href="/favicon.ico">
+
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="msapplication-TileImage" content="/mstile-150x150.png">
+<meta name="theme-color" content="#ffffff">
+
   
 
   
@@ -161,6 +173,29 @@
 
   
   
+    
+      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script>
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyCdOq7GCWM9mQ6wcPBrZownl3-Vvuu9sDY",
+      authDomain: "AIzaSyCdOq7GCWM9mQ6wcPBrZownl3-Vvuu9sDY",
+      projectId: "cloudshy-c7aef",
+      storageBucket: "cloudshy-c7aef.firebasestorage.app",
+      messagingSenderId: "95154075478",
+      appId: "1:95154075478:web:9440ee157af53a714388f7",
+      measurementId: "G-9DTZD8RRGP"
+    };
+
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
+    
+  
 
   
   
@@ -208,9 +243,9 @@
           <span class="sr-only">Cloud_Shy</span>
           
             <img
-              src="/img/Cloud_Shy.png"
-              width="2048"
-              height="2048"
+              src="/img/logo.png"
+              width="32"
+              height="32"
               class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom"
               alt="Cloud_Shy">
           
@@ -232,11 +267,11 @@
       
         
   <a
-  href=""
+  href="/posts/"
   
   class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
   
-  <p class="text-base font-medium" title="">
+  <p class="text-base font-medium" title="Posts">
     文档
   </p>
 </a>
@@ -291,21 +326,21 @@
       <div class="flex flex-col space-y-3">
         
           <a
-            href=""
+            href="/posts/"
             
             class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
             
-            <p class="text-sm font-sm" title="">
+            <p class="text-sm font-sm" title="Posts">
               我的学习笔记
             </p>
           </a>
         
           <a
-            href=""
+            href="/posts/"
             
             class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
             
-            <p class="text-sm font-sm" title="">
+            <p class="text-sm font-sm" title="Posts">
               新手入门教程集合
             </p>
           </a>
@@ -432,11 +467,11 @@
               
   <li class="mt-1">
   <a
-    href=""
+    href="/posts/"
     
     class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-bg font-bg" title="">
+    <p class="text-bg font-bg" title="Posts">
       文档
     </p>
   </a>
@@ -490,11 +525,11 @@
 
   <li class="mt-1">
     <a
-      href=""
+      href="/posts/"
       
       class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
       
-      <p class="text-sm font-small" title="">
+      <p class="text-sm font-small" title="Posts">
         我的学习笔记
       </p>
     </a>
@@ -502,11 +537,11 @@
 
   <li class="mt-1">
     <a
-      href=""
+      href="/posts/"
       
       class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
       
-      <p class="text-sm font-small" title="">
+      <p class="text-sm font-small" title="Posts">
         新手入门教程集合
       </p>
     </a>
@@ -615,16 +650,6 @@
 
 
 
-  <script>
-    (function () {
-      var $mainmenu = $(".main-menu");
-      var path = window.location.pathname;
-      $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
-        $(e).children("p").addClass("active");
-      });
-    })();
-  </script>
-
 
   </div>
 </div>
@@ -645,6 +670,51 @@
   
 
   
+  
+    
+    
+      
+  
+    
+      
+    
+  
+
+
+
+    <div id="hero" class="h-[150px] md:h-[200px]"></div>
+  
+  <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom">
+    
+    
+      
+    
+    <img
+      id="background-image"
+      src="/img/Dusk_hu_a50554d88869269b.png"
+      alt="Background Image"
+      class="absolute inset-0 w-full h-full object-cover">
+    <div
+      class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal"></div>
+    <div
+      class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal"></div>
+  </div>
+
+  
+    <div
+      id="background-blur"
+      class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/background-blur.min.0ad33cb9c066f652728b2cc09c9ceaf32645544f48e8b6b38f120d86f433ed997da275a49e6151fe0176430c45376812708d84727f3f969101fb44a4345b3f34.js"
+      integrity="sha512-CtM8ucBm9lJyiyzAnJzq8yZFVE9I6LazjxINhvQz7Zl9onWknmFR/gF2QwxFN2gScI2Ecn8/lpEB&#43;0SkNFs/NA=="
+      data-target-id="background-blur"
+      data-image-id="background-image"
+      data-image-url="/img/Dusk.png"></script>
+  
+    
   
 
   
@@ -704,38 +774,17 @@
     
 
     
-      <section class="space-y-10 w-full">
+      
         
           
-            
-              <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
-                2025
-              </h2>
-            
-            
+            <h2 class="mt-12 mb-3 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+              2025
+            </h2>
+            <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
               
-
-
-
-  
-
-
-
-
-  
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="group-hover-card group flex flex-wrap md:flex-nowrap article relative ">
+                
+<div
+  class="group-hover-card group relative min-h-full min-w-full overflow-hidden rounded border border-2 border-neutral-200 shadow-2xl dark:border-neutral-700">
   <a
     
   href="/posts/newnewnew/"
@@ -744,19 +793,16 @@
       
     
         
-          <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/img/All_hu_385c5aa703a6df7a.png);"></div>
+          <div class="thumbnail_card nozoom w-full" style="background-image:url(/img/All_hu_385c5aa703a6df7a.png);"></div>
         
-      <div class=" mt-3 md:mt-0">
-    <div class="items-center text-left text-xl font-semibold">
       
-        <div
-          class="group-hover-card-title decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 group-hover:underline group-hover:underline-offset-2">
-          Newnewnew
-        </div>
-      
-      
-      
-    </div>
+  <div class="px-6 py-4">
+    
+      <div
+        class="group-hover-card-title decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 group-hover:underline group-hover:underline-offset-2">
+        Newnewnew
+      </div>
+    
     <div class="group-hover-cancel text-sm text-neutral-500 dark:text-neutral-400">
       
 
@@ -824,30 +870,10 @@
   <div class="px-6 pt-4 pb-2"></div>
 </div>
 
-            
               
-
-
-
-  
-
-
-
-
-  
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="group-hover-card group flex flex-wrap md:flex-nowrap article relative ">
+                
+<div
+  class="group-hover-card group relative min-h-full min-w-full overflow-hidden rounded border border-2 border-neutral-200 shadow-2xl dark:border-neutral-700">
   <a
     
   href="/posts/article01/"
@@ -856,19 +882,16 @@
       
     
         
-          <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/img/All_hu_385c5aa703a6df7a.png);"></div>
+          <div class="thumbnail_card nozoom w-full" style="background-image:url(/img/All_hu_385c5aa703a6df7a.png);"></div>
         
-      <div class=" mt-3 md:mt-0">
-    <div class="items-center text-left text-xl font-semibold">
       
-        <div
-          class="group-hover-card-title decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 group-hover:underline group-hover:underline-offset-2">
-          Article01
-        </div>
-      
-      
-      
-    </div>
+  <div class="px-6 py-4">
+    
+      <div
+        class="group-hover-card-title decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 group-hover:underline group-hover:underline-offset-2">
+        Article01
+      </div>
+    
     <div class="group-hover-cancel text-sm text-neutral-500 dark:text-neutral-400">
       
 
@@ -940,51 +963,26 @@
   <div class="px-6 pt-4 pb-2"></div>
 </div>
 
-            
               
-
-
-
-  
-
-
-
-
-  
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="group-hover-card group flex flex-wrap md:flex-nowrap article relative ">
+                
+<div
+  class="group-hover-card group relative min-h-full min-w-full overflow-hidden rounded border border-2 border-neutral-200 shadow-2xl dark:border-neutral-700">
   <a
     
   href="/posts/vmware-workstation-%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%8C%87%E5%8D%97/"
     class="absolute inset-0"
     aria-label="VMware Workstation 安装虚拟机指南"></a>
+        
+          <div class="thumbnail_card nozoom w-full" style="background-image:url(/posts/vmware-workstation-%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%8C%87%E5%8D%97/feature_hu_437aafc6bc9fbd74.png);"></div>
+        
       
+  <div class="px-6 py-4">
     
-        
-          <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/img/All_hu_385c5aa703a6df7a.png);"></div>
-        
-      <div class=" mt-3 md:mt-0">
-    <div class="items-center text-left text-xl font-semibold">
-      
-        <div
-          class="group-hover-card-title decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 group-hover:underline group-hover:underline-offset-2">
-          VMware Workstation 安装虚拟机指南
-        </div>
-      
-      
-      
-    </div>
+      <div
+        class="group-hover-card-title decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 group-hover:underline group-hover:underline-offset-2">
+        VMware Workstation 安装虚拟机指南
+      </div>
+    
     <div class="group-hover-cancel text-sm text-neutral-500 dark:text-neutral-400">
       
 
@@ -1056,11 +1054,13 @@
   <div class="px-6 pt-4 pb-2"></div>
 </div>
 
-            
+              
+            </section>
           
         
-      </section>
-    
+
+      
+      
     
   
   

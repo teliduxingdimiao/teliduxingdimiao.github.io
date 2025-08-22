@@ -84,10 +84,22 @@
 
   
   
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+<link rel="manifest" href="/site.webmanifest">
+
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<link rel="shortcut icon" href="/favicon.ico">
+
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="msapplication-TileImage" content="/mstile-150x150.png">
+<meta name="theme-color" content="#ffffff">
+
   
 
   
@@ -106,11 +118,14 @@
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-04-15T10:28:11+08:00">
     <meta property="article:modified_time" content="2025-04-15T10:28:11+08:00">
+    <meta property="og:image" content="https://teliduxingdimiao.github.io/posts/vmware-workstation-%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%8C%87%E5%8D%97/feature.png">
 
   
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://teliduxingdimiao.github.io/posts/vmware-workstation-%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%8C%87%E5%8D%97/feature.png">
   <meta name="twitter:title" content="VMware Workstation 安装虚拟机指南">
-
+<meta name="twitter:image" content="https://teliduxingdimiao.github.io/posts/vmware-workstation-%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%8C%87%E5%8D%97/feature.png">
+    <meta property="og:image" content="https://teliduxingdimiao.github.io/posts/vmware-workstation-%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%8C%87%E5%8D%97/feature.png">
   <script type="application/ld+json">
   [{
     "@context": "https://schema.org",
@@ -189,6 +204,29 @@
 
   
   
+    
+      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script>
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyCdOq7GCWM9mQ6wcPBrZownl3-Vvuu9sDY",
+      authDomain: "AIzaSyCdOq7GCWM9mQ6wcPBrZownl3-Vvuu9sDY",
+      projectId: "cloudshy-c7aef",
+      storageBucket: "cloudshy-c7aef.firebasestorage.app",
+      messagingSenderId: "95154075478",
+      appId: "1:95154075478:web:9440ee157af53a714388f7",
+      measurementId: "G-9DTZD8RRGP"
+    };
+
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
+    
+  
 
   
   
@@ -236,9 +274,9 @@
           <span class="sr-only">Cloud_Shy</span>
           
             <img
-              src="/img/Cloud_Shy.png"
-              width="2048"
-              height="2048"
+              src="/img/logo.png"
+              width="32"
+              height="32"
               class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom"
               alt="Cloud_Shy">
           
@@ -260,11 +298,11 @@
       
         
   <a
-  href=""
+  href="/posts/"
   
   class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
   
-  <p class="text-base font-medium" title="">
+  <p class="text-base font-medium" title="Posts">
     文档
   </p>
 </a>
@@ -319,21 +357,21 @@
       <div class="flex flex-col space-y-3">
         
           <a
-            href=""
+            href="/posts/"
             
             class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
             
-            <p class="text-sm font-sm" title="">
+            <p class="text-sm font-sm" title="Posts">
               我的学习笔记
             </p>
           </a>
         
           <a
-            href=""
+            href="/posts/"
             
             class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
             
-            <p class="text-sm font-sm" title="">
+            <p class="text-sm font-sm" title="Posts">
               新手入门教程集合
             </p>
           </a>
@@ -460,11 +498,11 @@
               
   <li class="mt-1">
   <a
-    href=""
+    href="/posts/"
     
     class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-bg font-bg" title="">
+    <p class="text-bg font-bg" title="Posts">
       文档
     </p>
   </a>
@@ -518,11 +556,11 @@
 
   <li class="mt-1">
     <a
-      href=""
+      href="/posts/"
       
       class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
       
-      <p class="text-sm font-small" title="">
+      <p class="text-sm font-small" title="Posts">
         我的学习笔记
       </p>
     </a>
@@ -530,11 +568,11 @@
 
   <li class="mt-1">
     <a
-      href=""
+      href="/posts/"
       
       class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
       
-      <p class="text-sm font-small" title="">
+      <p class="text-sm font-small" title="Posts">
         新手入门教程集合
       </p>
     </a>
@@ -642,16 +680,6 @@
   </div>
 
 
-
-  <script>
-    (function () {
-      var $mainmenu = $(".main-menu");
-      var path = window.location.pathname;
-      $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
-        $(e).children("p").addClass("active");
-      });
-    })();
-  </script>
 
 
   </div>
@@ -814,6 +842,148 @@
       
       
       
+      
+        <div class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+          <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+            
+              <details
+  open
+  id="TOCView"
+  class="toc-right mt-0 overflow-y-auto overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    目录
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#一创建一个新的虚拟机">一、创建一个新的虚拟机</a></li>
+    <li><a href="#二下载-centos-系统-iso-镜像">二、下载 CentOS 系统 ISO 镜像</a></li>
+    <li><a href="#三安装-centos-操作系统">三、安装 CentOS 操作系统</a>
+      <ul>
+        <li><a href="#1选择系统引导方式">1、选择系统引导方式</a></li>
+        <li><a href="#2修改网卡名为-eth0-的形式按-tab-键进入内核参数配置界面并手动输入如下参数">2、修改网卡名为 eth0 的形式，按 Tab 键进入内核参数配置界面，并手动输入如下参数：</a></li>
+        <li><a href="#3进入图形安装界面默认选择安装过程的语言为英语">3、进入图形安装界面，默认选择安装过程的语言为英语。</a></li>
+        <li><a href="#4进入到安装摘要界面installation-summary">4、进入到安装摘要界面（Installation Summary）</a></li>
+        <li><a href="#5配置系统时区和时间上海">5、配置系统时区和时间（上海）</a></li>
+        <li><a href="#6选择额外的语言支持">6、选择额外的语言支持</a></li>
+        <li><a href="#7系统软件包选择一般选择最小化安装">7、系统软件包选择，一般选择最小化安装。</a></li>
+        <li><a href="#8配置网络和主机名激活右上角的网卡按钮on然后配置左下角的主机名为www">8、配置网络和主机名，激活右上角的网卡按钮“ON”，然后配置左下角的主机名为“www”。</a></li>
+        <li><a href="#9选择磁盘设备配置分区">9、选择磁盘设备，配置分区。</a></li>
+        <li><a href="#10按企业生产标准定制磁盘分区将-lvm-分区改为更优秀的标准分区模式standard-partition">10、按企业生产标准定制磁盘分区，将 LVM 分区改为更优秀的标准分区模式“Standard Partition”。</a></li>
+        <li><a href="#11开始增加分区">11、开始增加分区</a></li>
+        <li><a href="#12开始系统安装">12、开始系统安装</a></li>
+        <li><a href="#13系统安装后的基本配置">13、系统安装后的基本配置</a></li>
+        <li><a href="#14使用-vmware-为新系统创建快照">14、使用 VMware 为新系统创建快照</a></li>
+        <li><a href="#15更新系统打补丁到最新">15、更新系统打补丁到最新</a></li>
+        <li><a href="#16额外安装一些有用的软件包">16、额外安装一些有用的软件包</a></li>
+      </ul>
+    </li>
+    <li><a href="#四远程连接管理-linux">四、远程连接管理 Linux</a>
+      <ul>
+        <li><a href="#1远程连接-linux-的原理">1、远程连接 Linux 的原理</a></li>
+        <li><a href="#2工具的选择">2、工具的选择</a></li>
+        <li><a href="#3调整-xshell-里的设置">3、调整 Xshell 里的设置</a></li>
+        <li><a href="#4配置记录-ssh-操作日志及输出">4、配置记录 SSH 操作日志及输出</a></li>
+        <li><a href="#5配置本地机器上传下载目录">5、配置本地机器上传下载目录</a>
+          <ul>
+            <li><a href="#arzsz-命令的安装方法">a、rz、sz 命令的安装方法</a></li>
+            <li><a href="#b上传命令-rz">b、上传命令 rz</a></li>
+            <li><a href="#c下载命令-sz">c、下载命令 sz</a></li>
+            <li><a href="#d注意事项">d、注意事项</a></li>
+            <li><a href="#e其他工具">e、其他工具</a></li>
+          </ul>
+        </li>
+        <li><a href="#6批量部署和管理">6、批量部署和管理</a></li>
+        <li><a href="#7配置-xshell-标签路径">7、配置 Xshell 标签路径</a></li>
+        <li><a href="#8配置标签模版">8、配置标签模版</a></li>
+        <li><a href="#9ssh-远程连接故障排查">9、SSH 远程连接故障排查</a>
+          <ul>
+            <li><a href="#a首先查看远端服务是否正常">a、首先查看远端服务是否正常。</a></li>
+            <li><a href="#b检查-firewalld-等防火墙策略是否阻挡了连接服务端执行">b、检查 firewalld 等防火墙策略是否阻挡了连接(服务端执行)</a></li>
+            <li><a href="#c利用-telnet-或-nmap-命令检查客户端执行">c、利用 telnet 或 nmap 命令检查（客户端执行）</a></li>
+            <li><a href="#d系统中的-sshd-服务是否正常开启端口是否正确">d、系统中的 SSHD 服务是否正常开启，端口是否正确</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#五克隆-vmware-下的虚拟机">五、克隆 VMware 下的虚拟机</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    目录
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#一创建一个新的虚拟机">一、创建一个新的虚拟机</a></li>
+    <li><a href="#二下载-centos-系统-iso-镜像">二、下载 CentOS 系统 ISO 镜像</a></li>
+    <li><a href="#三安装-centos-操作系统">三、安装 CentOS 操作系统</a>
+      <ul>
+        <li><a href="#1选择系统引导方式">1、选择系统引导方式</a></li>
+        <li><a href="#2修改网卡名为-eth0-的形式按-tab-键进入内核参数配置界面并手动输入如下参数">2、修改网卡名为 eth0 的形式，按 Tab 键进入内核参数配置界面，并手动输入如下参数：</a></li>
+        <li><a href="#3进入图形安装界面默认选择安装过程的语言为英语">3、进入图形安装界面，默认选择安装过程的语言为英语。</a></li>
+        <li><a href="#4进入到安装摘要界面installation-summary">4、进入到安装摘要界面（Installation Summary）</a></li>
+        <li><a href="#5配置系统时区和时间上海">5、配置系统时区和时间（上海）</a></li>
+        <li><a href="#6选择额外的语言支持">6、选择额外的语言支持</a></li>
+        <li><a href="#7系统软件包选择一般选择最小化安装">7、系统软件包选择，一般选择最小化安装。</a></li>
+        <li><a href="#8配置网络和主机名激活右上角的网卡按钮on然后配置左下角的主机名为www">8、配置网络和主机名，激活右上角的网卡按钮“ON”，然后配置左下角的主机名为“www”。</a></li>
+        <li><a href="#9选择磁盘设备配置分区">9、选择磁盘设备，配置分区。</a></li>
+        <li><a href="#10按企业生产标准定制磁盘分区将-lvm-分区改为更优秀的标准分区模式standard-partition">10、按企业生产标准定制磁盘分区，将 LVM 分区改为更优秀的标准分区模式“Standard Partition”。</a></li>
+        <li><a href="#11开始增加分区">11、开始增加分区</a></li>
+        <li><a href="#12开始系统安装">12、开始系统安装</a></li>
+        <li><a href="#13系统安装后的基本配置">13、系统安装后的基本配置</a></li>
+        <li><a href="#14使用-vmware-为新系统创建快照">14、使用 VMware 为新系统创建快照</a></li>
+        <li><a href="#15更新系统打补丁到最新">15、更新系统打补丁到最新</a></li>
+        <li><a href="#16额外安装一些有用的软件包">16、额外安装一些有用的软件包</a></li>
+      </ul>
+    </li>
+    <li><a href="#四远程连接管理-linux">四、远程连接管理 Linux</a>
+      <ul>
+        <li><a href="#1远程连接-linux-的原理">1、远程连接 Linux 的原理</a></li>
+        <li><a href="#2工具的选择">2、工具的选择</a></li>
+        <li><a href="#3调整-xshell-里的设置">3、调整 Xshell 里的设置</a></li>
+        <li><a href="#4配置记录-ssh-操作日志及输出">4、配置记录 SSH 操作日志及输出</a></li>
+        <li><a href="#5配置本地机器上传下载目录">5、配置本地机器上传下载目录</a>
+          <ul>
+            <li><a href="#arzsz-命令的安装方法">a、rz、sz 命令的安装方法</a></li>
+            <li><a href="#b上传命令-rz">b、上传命令 rz</a></li>
+            <li><a href="#c下载命令-sz">c、下载命令 sz</a></li>
+            <li><a href="#d注意事项">d、注意事项</a></li>
+            <li><a href="#e其他工具">e、其他工具</a></li>
+          </ul>
+        </li>
+        <li><a href="#6批量部署和管理">6、批量部署和管理</a></li>
+        <li><a href="#7配置-xshell-标签路径">7、配置 Xshell 标签路径</a></li>
+        <li><a href="#8配置标签模版">8、配置标签模版</a></li>
+        <li><a href="#9ssh-远程连接故障排查">9、SSH 远程连接故障排查</a>
+          <ul>
+            <li><a href="#a首先查看远端服务是否正常">a、首先查看远端服务是否正常。</a></li>
+            <li><a href="#b检查-firewalld-等防火墙策略是否阻挡了连接服务端执行">b、检查 firewalld 等防火墙策略是否阻挡了连接(服务端执行)</a></li>
+            <li><a href="#c利用-telnet-或-nmap-命令检查客户端执行">c、利用 telnet 或 nmap 命令检查（客户端执行）</a></li>
+            <li><a href="#d系统中的-sshd-服务是否正常开启端口是否正确">d、系统中的 SSHD 服务是否正常开启，端口是否正确</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#五克隆-vmware-下的虚拟机">五、克隆 VMware 下的虚拟机</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+
+
+            
+            
+          </div>
+        </div>
       
 
 
