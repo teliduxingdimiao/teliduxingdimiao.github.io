@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Cloud_Shy</title>
+    <title>分类列表 on Cloud_Shy</title>
     <link>https://teliduxingdimiao.github.io/categories/</link>
-    <description>Recent content in Categories on Cloud_Shy</description>
+    <description>Recent content in 分类列表 on Cloud_Shy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>yunhaosong618@163.com (Cloud_Shy)</managingEditor>
     <webMaster>yunhaosong618@163.com (Cloud_Shy)</webMaster>
     <copyright>© 2025 Cloud_Shy</copyright>
-    <atom:link href="https://teliduxingdimiao.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Aug 2025 10:28:11 +0800</lastBuildDate><atom:link href="https://teliduxingdimiao.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>新手入门教程集合</title>
+      <link>https://teliduxingdimiao.github.io/categories/%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B%E9%9B%86%E5%90%88/</link>
+      <pubDate>Mon, 18 Aug 2025 10:28:11 +0800</pubDate>
+      <author>yunhaosong618@163.com (Cloud_Shy)</author>
+      <guid>https://teliduxingdimiao.github.io/categories/%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B%E9%9B%86%E5%90%88/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>我的学习笔记</title>
+      <link>https://teliduxingdimiao.github.io/categories/%E6%88%91%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Tue, 18 Jun 2024 10:28:11 +0800</pubDate>
+      <author>yunhaosong618@163.com (Cloud_Shy)</author>
+      <guid>https://teliduxingdimiao.github.io/categories/%E6%88%91%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>

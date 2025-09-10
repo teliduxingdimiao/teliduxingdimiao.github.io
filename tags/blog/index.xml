@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Cloud_Shy</title>
+    <link>https://teliduxingdimiao.github.io/tags/blog/</link>
+    <description>Recent content in Blog on Cloud_Shy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>yunhaosong618@163.com (Cloud_Shy)</managingEditor>
+    <webMaster>yunhaosong618@163.com (Cloud_Shy)</webMaster>
+    <copyright>© 2025 Cloud_Shy</copyright>
+    <lastBuildDate>Mon, 11 Aug 2025 10:28:11 +0800</lastBuildDate><atom:link href="https://teliduxingdimiao.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>新手小白个人博客搭建之 Hugo 入门</title>
+      <link>https://teliduxingdimiao.github.io/naivelearnings/%E6%96%B0%E6%89%8B%E5%B0%8F%E7%99%BD%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B-hugo-%E5%85%A5%E9%97%A8/</link>
+      <pubDate>Mon, 11 Aug 2025 10:28:11 +0800</pubDate>
+      <author>yunhaosong618@163.com (Cloud_Shy)</author>
+      <guid>https://teliduxingdimiao.github.io/naivelearnings/%E6%96%B0%E6%89%8B%E5%B0%8F%E7%99%BD%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B-hugo-%E5%85%A5%E9%97%A8/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://teliduxingdimiao.github.io/naivelearnings/%E6%96%B0%E6%89%8B%E5%B0%8F%E7%99%BD%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B-hugo-%E5%85%A5%E9%97%A8/feature.png" />
+    </item>
+    
+    <item>
+      <title>新手小白个人博客搭建之 Hugo 入门</title>
+      <link>https://teliduxingdimiao.github.io/posts/%E6%96%B0%E6%89%8B%E5%B0%8F%E7%99%BD%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B-hugo-%E5%85%A5%E9%97%A8/</link>
+      <pubDate>Mon, 11 Aug 2025 10:28:11 +0800</pubDate>
+      <author>yunhaosong618@163.com (Cloud_Shy)</author>
+      <guid>https://teliduxingdimiao.github.io/posts/%E6%96%B0%E6%89%8B%E5%B0%8F%E7%99%BD%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B-hugo-%E5%85%A5%E9%97%A8/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://teliduxingdimiao.github.io/posts/%E6%96%B0%E6%89%8B%E5%B0%8F%E7%99%BD%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B-hugo-%E5%85%A5%E9%97%A8/feature.png" />
+    </item>
+    
+  </channel>
+</rss>

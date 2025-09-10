@@ -1,15 +1,95 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Cloud_Shy</title>
+    <title>标签 on Cloud_Shy</title>
     <link>https://teliduxingdimiao.github.io/tags/</link>
-    <description>Recent content in Tags on Cloud_Shy</description>
+    <description>Recent content in 标签 on Cloud_Shy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>yunhaosong618@163.com (Cloud_Shy)</managingEditor>
     <webMaster>yunhaosong618@163.com (Cloud_Shy)</webMaster>
     <copyright>© 2025 Cloud_Shy</copyright>
-    <atom:link href="https://teliduxingdimiao.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Aug 2025 10:28:11 +0800</lastBuildDate><atom:link href="https://teliduxingdimiao.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Blowfish</title>
+      <link>https://teliduxingdimiao.github.io/tags/blowfish/</link>
+      <pubDate>Mon, 18 Aug 2025 10:28:11 +0800</pubDate>
+      <author>yunhaosong618@163.com (Cloud_Shy)</author>
+      <guid>https://teliduxingdimiao.github.io/tags/blowfish/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://teliduxingdimiao.github.io/tags/hugo/</link>
+      <pubDate>Mon, 18 Aug 2025 10:28:11 +0800</pubDate>
+      <author>yunhaosong618@163.com (Cloud_Shy)</author>
+      <guid>https://teliduxingdimiao.github.io/tags/hugo/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://teliduxingdimiao.github.io/tags/blog/</link>
+      <pubDate>Mon, 11 Aug 2025 10:28:11 +0800</pubDate>
+      <author>yunhaosong618@163.com (Cloud_Shy)</author>
+      <guid>https://teliduxingdimiao.github.io/tags/blog/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CentOS</title>
+      <link>https://teliduxingdimiao.github.io/tags/centos/</link>
+      <pubDate>Tue, 15 Apr 2025 10:28:11 +0800</pubDate>
+      <author>yunhaosong618@163.com (Cloud_Shy)</author>
+      <guid>https://teliduxingdimiao.github.io/tags/centos/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://teliduxingdimiao.github.io/tags/linux/</link>
+      <pubDate>Tue, 15 Apr 2025 10:28:11 +0800</pubDate>
+      <author>yunhaosong618@163.com (Cloud_Shy)</author>
+      <guid>https://teliduxingdimiao.github.io/tags/linux/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>VMware</title>
+      <link>https://teliduxingdimiao.github.io/tags/vmware/</link>
+      <pubDate>Tue, 15 Apr 2025 10:28:11 +0800</pubDate>
+      <author>yunhaosong618@163.com (Cloud_Shy)</author>
+      <guid>https://teliduxingdimiao.github.io/tags/vmware/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://teliduxingdimiao.github.io/tags/python/</link>
+      <pubDate>Tue, 18 Jun 2024 10:28:11 +0800</pubDate>
+      <author>yunhaosong618@163.com (Cloud_Shy)</author>
+      <guid>https://teliduxingdimiao.github.io/tags/python/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>数据处理</title>
+      <link>https://teliduxingdimiao.github.io/tags/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/</link>
+      <pubDate>Tue, 18 Jun 2024 10:28:11 +0800</pubDate>
+      <author>yunhaosong618@163.com (Cloud_Shy)</author>
+      <guid>https://teliduxingdimiao.github.io/tags/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>

@@ -9,26 +9,26 @@
     <managingEditor>yunhaosong618@163.com (Cloud_Shy)</managingEditor>
     <webMaster>yunhaosong618@163.com (Cloud_Shy)</webMaster>
     <copyright>© 2025 Cloud_Shy</copyright>
-    <lastBuildDate>Tue, 19 Aug 2025 16:38:25 +0800</lastBuildDate><atom:link href="https://teliduxingdimiao.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Aug 2025 10:28:11 +0800</lastBuildDate><atom:link href="https://teliduxingdimiao.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Newnewnew</title>
-      <link>https://teliduxingdimiao.github.io/posts/newnewnew/</link>
-      <pubDate>Tue, 19 Aug 2025 16:38:25 +0800</pubDate>
+      <title>新手小白个人博客搭建之 Hugo 进阶</title>
+      <link>https://teliduxingdimiao.github.io/posts/%E6%96%B0%E6%89%8B%E5%B0%8F%E7%99%BD%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B-hugo-%E8%BF%9B%E9%98%B6/</link>
+      <pubDate>Mon, 18 Aug 2025 10:28:11 +0800</pubDate>
       <author>yunhaosong618@163.com (Cloud_Shy)</author>
-      <guid>https://teliduxingdimiao.github.io/posts/newnewnew/</guid>
+      <guid>https://teliduxingdimiao.github.io/posts/%E6%96%B0%E6%89%8B%E5%B0%8F%E7%99%BD%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B-hugo-%E8%BF%9B%E9%98%B6/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://teliduxingdimiao.github.io/posts/%E6%96%B0%E6%89%8B%E5%B0%8F%E7%99%BD%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B-hugo-%E8%BF%9B%E9%98%B6/feature.png" />
     </item>
     
     <item>
-      <title>Article01</title>
-      <link>https://teliduxingdimiao.github.io/posts/article01/</link>
-      <pubDate>Sun, 17 Aug 2025 10:28:11 +0800</pubDate>
+      <title>新手小白个人博客搭建之 Hugo 入门</title>
+      <link>https://teliduxingdimiao.github.io/posts/%E6%96%B0%E6%89%8B%E5%B0%8F%E7%99%BD%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B-hugo-%E5%85%A5%E9%97%A8/</link>
+      <pubDate>Mon, 11 Aug 2025 10:28:11 +0800</pubDate>
       <author>yunhaosong618@163.com (Cloud_Shy)</author>
-      <guid>https://teliduxingdimiao.github.io/posts/article01/</guid>
+      <guid>https://teliduxingdimiao.github.io/posts/%E6%96%B0%E6%89%8B%E5%B0%8F%E7%99%BD%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B-hugo-%E5%85%A5%E9%97%A8/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://teliduxingdimiao.github.io/posts/%E6%96%B0%E6%89%8B%E5%B0%8F%E7%99%BD%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B-hugo-%E5%85%A5%E9%97%A8/feature.png" />
     </item>
     
     <item>
@@ -39,6 +39,26 @@
       <guid>https://teliduxingdimiao.github.io/posts/vmware-workstation-%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%8C%87%E5%8D%97/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://teliduxingdimiao.github.io/posts/vmware-workstation-%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%8C%87%E5%8D%97/feature.png" />
+    </item>
+    
+    <item>
+      <title>Excel Python:飞速搞定数据分析与处理之 Python 入门笔记</title>
+      <link>https://teliduxingdimiao.github.io/posts/excel-python%E9%A3%9E%E9%80%9F%E6%90%9E%E5%AE%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%A4%84%E7%90%86%E4%B9%8B-python-%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Tue, 18 Jun 2024 10:28:11 +0800</pubDate>
+      <author>yunhaosong618@163.com (Cloud_Shy)</author>
+      <guid>https://teliduxingdimiao.github.io/posts/excel-python%E9%A3%9E%E9%80%9F%E6%90%9E%E5%AE%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%A4%84%E7%90%86%E4%B9%8B-python-%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://teliduxingdimiao.github.io/posts/excel-python%E9%A3%9E%E9%80%9F%E6%90%9E%E5%AE%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%A4%84%E7%90%86%E4%B9%8B-python-%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/feature.png" />
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://teliduxingdimiao.github.io/posts/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yunhaosong618@163.com (Cloud_Shy)</author>
+      <guid>https://teliduxingdimiao.github.io/posts/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/</guid>
+      <description></description>
+      
     </item>
     
   </channel>
